@@ -197,7 +197,66 @@ h2 {
     transform: translate(-2px, -2px); /* shifted retro effect */
 }
 
+@media (min-width: 2560px) {
+    :root {
+        --h1-size: 48px;
+        --h2-size: 32px;
+        --font-size: 24px;
+    }
+
+    .container {
+        width: 2000px;
+        gap: 40px;
+    }
+
+    .sidebar {
+        max-width: 400px;
+    }
+
+    .sidebar-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sidebar-section {
+        border-width: 4px;
+        padding: 20px;
+    }
+
+    .sidebar-section li {
+        font-size: 22px;
+    }
+
+    .main-content {
+        border-width: 4px;
+        padding: 40px;
+    }
+
+    .tech-tag {
+        font-size: 20px;
+        padding: 6px 12px;
+        border-width: 3px;
+    }
+
+    .corner-icons .icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .project-icons .icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
 @media (max-width: 500px) {
+    html,
+    body {
+        overflow: auto;
+        align-items: flex-start;
+        height: auto;
+    }
+
     body {
         zoom: 0.5;
         transform-origin: top left;
