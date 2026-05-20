@@ -26,6 +26,7 @@ export default function Home() {
                         <li>JavaScript</li>
                         <li>TypeScript</li>
                         <li>Python</li>
+                        <li>PHP</li>
                         <li>Bash</li>
                         <li>SQL</li>
                     </ul>
@@ -35,9 +36,8 @@ export default function Home() {
                     <h2>Frameworks</h2>
                     <ul>
                         <li>React</li>
-                        <li>Next</li>
-                        <li>Django</li>
-                        <li>Nest</li>
+                        <li>Next.js</li>
+                        <li>NestJS</li>
                     </ul>
                 </div>
 
@@ -45,18 +45,21 @@ export default function Home() {
                     <h2>Tools</h2>
                     <ul>
                         <li>Git</li>
+                        <li>CI/CD</li>
                         <li>Docker</li>
                         <li>Nginx</li>
-                        <li>PostqreSQL</li>
+                        <li>PostgreSQL</li>
                         <li>SQLite</li>
+                        <li>Prisma</li>
+                        <li>Wireshark</li>
                     </ul>
                 </div>
 
                 <div className="sidebar-section">
-                    <h2>Editors</h2>
+                    <h2>Systems</h2>
                     <ul>
-                        <li>WebStorm</li>
-                        <li>PyCharm</li>
+                        <li>Xubuntu</li>
+                        <li>Kali Linux</li>
                     </ul>
                 </div>
             </aside>
@@ -70,10 +73,11 @@ export default function Home() {
                 <section>
                     <h2>About</h2>
                     <p>
-                        Experienced in full-stack web development, working on
-                        both frontend and backend applications. Familiar with
-                        memory allocation, dynamic data structures, efficient
-                        data handling, web scraping and data extraction.
+                        Experienced in full-stack web development. Strong
+                        understanding of memory allocation, dynamic data
+                        structures, efficient data handling, web scraping, and
+                        data extraction. Currently learning Kali Linux for
+                        penetration testing.
                     </p>
                 </section>
 
@@ -88,53 +92,52 @@ export default function Home() {
                                 rel="noopener noreferrer"
                             >
                                 soldankpp.app
-                            </a>{' '}
-                            <span>in progress...</span>
+                            </a>
                         </p>
                         <div className="tech-tags">
                             <span className="tech-tag">JavaScript</span>
                             <span className="tech-tag">TypeScript</span>
                             <span className="tech-tag">React</span>
-                            <span className="tech-tag">Nest</span>
+                            <span className="tech-tag">NestJS</span>
+                            <span className="tech-tag">Prisma</span>
                             <span className="tech-tag">Tailwind CSS</span>
                             <span className="tech-tag">Shadcn</span>
                             <span className="tech-tag">Canvas</span>
                             <span className="tech-tag">HTML</span>
+                            <span className="tech-tag">PostgreSQL</span>
                         </div>
                         <p>
                             Full-stack website for 2D arcade game Soldank++.
                             Built with Vite + React on the frontend, using
                             Tailwind CSS, Shadcn as UI library, and the HTML
-                            Canvas API, with a NestJS backend for API and data
-                            management.
+                            Canvas API, with a NestJS backend for API and
+                            PostgreSQL database management.
                         </p>
                     </div>
 
                     <div className="project">
                         <p>
                             <a
-                                href="https://github.com/max-ghz/django-app"
+                                href="https://github.com/max-ghz/superclimbstats"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                oldclimbstats.eu
-                            </a>{' '}
-                            <span>in progress...</span>
+                                superclimbstats.xyz
+                            </a>
                         </p>
                         <div className="tech-tags">
-                            <span className="tech-tag">Python</span>
-                            <span className="tech-tag">Django</span>
                             <span className="tech-tag">JavaScript</span>
-                            <span className="tech-tag">SASS</span>
-                            <span className="tech-tag">HTMX</span>
+                            <span className="tech-tag">PHP</span>
+                            <span className="tech-tag">CSS</span>
                             <span className="tech-tag">HTML</span>
+                            <span className="tech-tag">SQLite</span>
                         </div>
                         <p>
-                            Full-stack website displaying historical statistics
-                            for 2D game Soldat. Built with Django REST Framework
-                            on the backend and HTMX for frontend interactivity,
-                            styled using the SASS preprocessor, and enhanced
-                            with a bit of JavaScript.
+                            Webstats platform for recovered servers from 2D
+                            action game Soldat. Built with pure JavaScript,
+                            HTML, and CSS on the frontend with DOMPurify
+                            sanitization. Developed backend logic in PHP for
+                            handling and displaying SQLite data efficiently.
                         </p>
                     </div>
                 </section>
@@ -142,10 +145,8 @@ export default function Home() {
                 <section className="certificate-section">
                     <h2>Certificates</h2>
                     <p>CS50x: Introduction to Computer Science</p>
-                    <p>CS50’s Web Programming with Python and JavaScript </p>
-                    <p>
-                        PCPP1 – Certified Professional Python Programmer Level 1
-                    </p>
+                    <p>CS50s Web Programming with Python and JavaScript</p>
+                    <p>PCPP1 Certified Professional Python Programmer Level 1</p>
 
                     <div className="corner-icons">
                         <a
