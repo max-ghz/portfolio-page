@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { FaDiscord, FaGithub } from 'react-icons/fa';
 
 export default function Home() {
@@ -6,11 +5,12 @@ export default function Home() {
         <main className="container">
             <aside className="sidebar">
                 <div className="sidebar-image">
-                    <Image
-                        src="/me.jpg"
+                    <img
+                        src="me.jpg"
                         alt="My picture"
-                        fill
                         style={{
+                            width: '100%',
+                            height: '100%',
                             objectFit: 'cover',
                             border: '2px solid #00f0ff',
                             borderRadius: '2px',
