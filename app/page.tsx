@@ -105,7 +105,25 @@ export default function Home() {
                             <span className="tech-tag">Canvas</span>
                             <span className="tech-tag">HTML</span>
                             <span className="tech-tag">PostgreSQL</span>
+
+                            <div className="project-icons">
+                                <a
+                                    href="https://github.com/soldank-plus-plus/spp-website"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="icon" />
+                                </a>
+                                <a
+                                    href="https://github.com/soldank-plus-plus/spp-webstats"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="icon" />
+                                </a>
+                            </div>
                         </div>
+
                         <p>
                             Full-stack website for 2D arcade game Soldank++.
                             Built with Vite + React on the frontend, using
@@ -118,7 +136,7 @@ export default function Home() {
                     <div className="project">
                         <p>
                             <a
-                                href="https://github.com/max-ghz/superclimbstats"
+                                href="https://superclimbstats.xyz"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -131,7 +149,18 @@ export default function Home() {
                             <span className="tech-tag">CSS</span>
                             <span className="tech-tag">HTML</span>
                             <span className="tech-tag">SQLite</span>
+
+                            <div className="project-icons">
+                                <a
+                                    href="https://github.com/soldank-plus-plus/spp-webstats"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="icon" />
+                                </a>
+                            </div>                            
                         </div>
+
                         <p>
                             Webstats platform for recovered servers from 2D
                             action game Soldat. Built with pure JavaScript,
