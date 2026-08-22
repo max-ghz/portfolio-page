@@ -56,14 +56,6 @@ export default function Home() {
                         <li>Wireshark</li>
                     </ul>
                 </div>
-
-                <div className="sidebar-section">
-                    <h2>Systems</h2>
-                    <ul>
-                        <li>Xubuntu</li>
-                        <li>Kali Linux</li>
-                    </ul>
-                </div>
             </aside>
 
             <div className="main-content">
@@ -78,8 +70,7 @@ export default function Home() {
                         Experienced in full-stack web development. Strong
                         understanding of memory allocation, dynamic data
                         structures, efficient data handling, web scraping, and
-                        data extraction. Currently learning Kali Linux for
-                        penetration testing.
+                        data extraction.
                     </p>
                 </section>
 
