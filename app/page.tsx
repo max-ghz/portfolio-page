@@ -36,8 +36,10 @@ export default function Home() {
                     <h2>Frameworks</h2>
                     <ul>
                         <li>React</li>
+                        <li>Electron</li>
                         <li>Next.js</li>
                         <li>NestJS</li>
+                        <li>FastAPI</li>
                     </ul>
                 </div>
 
@@ -88,6 +90,42 @@ export default function Home() {
                     <div className="project">
                         <p>
                             <a
+                                href="https://github.com/soldank-plus-plus/spp-launcher"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                spp-launcher
+                            </a>
+                        </p>
+                        <div className="tech-tags">
+                            <span className="tech-tag">TypeScript</span>
+                            <span className="tech-tag">React</span>
+                            <span className="tech-tag">Electron</span>
+                            <span className="tech-tag">Vite</span>
+                            <span className="tech-tag">Zustand</span>
+
+                            <div className="project-icons">
+                                <a
+                                    href="https://github.com/soldank-plus-plus/spp-launcher"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="icon" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <p>
+                            Desktop launcher for Soldank++ game, with a
+                            parallel web build. Built with Electron, React 19,
+                            TypeScript, Vite/electron-vite, and Zustand for
+                            state management.
+                        </p>
+                    </div>
+
+                    <div className="project">
+                        <p>
+                            <a
                                 href="https://soldankpp.app/"
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -131,6 +169,41 @@ export default function Home() {
                             Tailwind CSS, Shadcn as UI library, and the HTML
                             Canvas API, with a NestJS backend for API and
                             PostgreSQL database management.
+                        </p>
+                    </div>
+
+                    <div className="project">
+                        <p>
+                            <a
+                                href="https://github.com/max-ghz/spp-lobby"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                spp-lobby
+                            </a>
+                        </p>
+                        <div className="tech-tags">
+                            <span className="tech-tag">Python</span>
+                            <span className="tech-tag">FastAPI</span>
+                            <span className="tech-tag">Docker</span>
+
+                            <div className="project-icons">
+                                <a
+                                    href="https://github.com/max-ghz/spp-lobby"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <FaGithub className="icon" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <p>
+                            Python/FastAPI HTTP lobby server for Soldank++.
+                            Lets game servers register themselves and lets
+                            clients discover registered servers. No database
+                            &mdash; everything lives in an in-memory dict
+                            guarded by a lock, with a TTL-based expiry sweep.
                         </p>
                     </div>
 
