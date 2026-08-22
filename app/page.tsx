@@ -84,6 +84,7 @@ export default function Home() {
                 <section>
                     <h2>Projects</h2>
 
+                    <div className="projects-list">
                     <div className="project">
                         <p>
                             <a
@@ -158,7 +159,7 @@ export default function Home() {
                                 >
                                     <FaGithub className="icon" />
                                 </a>
-                            </div>                            
+                            </div>
                         </div>
 
                         <p>
@@ -168,6 +169,7 @@ export default function Home() {
                             sanitization. Developed backend logic in PHP for
                             handling and displaying SQLite data efficiently.
                         </p>
+                    </div>
                     </div>
                 </section>
 
