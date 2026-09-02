@@ -1,7 +1,10 @@
 {
-    "name": "portfolio",
-    "version": "0.1.0",
+    "name": "max-ghz portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio page written in Next.js",
+    "author": "max-ghz",
     "private": true,
+    "license": "MIT",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
